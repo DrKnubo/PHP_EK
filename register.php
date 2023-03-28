@@ -10,7 +10,9 @@ require_once('./app/view/RegisterView.php');
  if(!$userExist)
  {
   $registerView->register();
+  // todo Register Knopf anzeigen
  }
+ // todo : else umleitung zu profile.php
 ?>
 
 <h1>Register</h1>
